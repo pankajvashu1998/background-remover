@@ -130,7 +130,7 @@ const Result = () => {
             className="bg-yellow-400  p-4 rounded-full"
             onClick={() => setBGColor("yellow")}
           ></button>
-           <button
+           {/* <button
             className="bg-gray-400  p-4 rounded-full"
             onClick={() => setBGColor("gray")}
           ></button>
@@ -141,7 +141,7 @@ const Result = () => {
            <button
             className="bg-black  p-4 rounded-full"
             onClick={() => setBGColor("black")}
-          ></button>
+          ></button> */}
         </div>
         <a
           href=""
