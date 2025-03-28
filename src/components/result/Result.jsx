@@ -101,34 +101,46 @@ const Result = () => {
         </canvas>
       </div>
 
-      <div className="flex items-center justify-center flex-col gap-3 shadow-2xl p-10 rounded">
-        <h1 className="py-4 text-xl font-bold text-gray-700">
+      <div className="flex items-center justify-center flex-col gap-3 shadow-2xl p-6 rounded">
+        <h1 className="py-2 text-xl font-bold text-gray-700">
           Background Effect
         </h1>
-        <div className="grid grid-cols-3 md:grid-cols-3 gap-5 p-4 shadow-2xl">
+        <div className="grid grid-cols-3 md:grid-cols-3 gap-4 p-4 shadow-2xl">
           <button
-            className="bg-red-500 py-4 px-5"
+            className="bg-red-500  p-4 rounded-full"
             onClick={() => setBGColor("red")}
           ></button>
           <button
-            className="bg-blue-500 py-4 px-5"
+            className="bg-blue-500 p-4 rounded-full"
             onClick={() => setBGColor("blue")}
           ></button>
           <button
-            className="bg-orange-500 py-4 px-5"
+            className="bg-orange-500  p-4 rounded-full"
             onClick={() => setBGColor("orange")}
           ></button>
           <button
-            className="bg-green-500 py-4 px-5"
+            className="bg-green-500  p-4 rounded-full"
             onClick={() => setBGColor("green")}
           ></button>
           <button
-            className="bg-purple-500 py-4 px-5"
+            className="bg-purple-500  p-4 rounded-full"
             onClick={() => setBGColor("purple")}
           ></button>
           <button
-            className="bg-yellow-400 py-4 px-5"
+            className="bg-yellow-400  p-4 rounded-full"
             onClick={() => setBGColor("yellow")}
+          ></button>
+           <button
+            className="bg-gray-400  p-4 rounded-full"
+            onClick={() => setBGColor("gray")}
+          ></button>
+           <button
+            className="bg-pink-400  p-4 rounded-full"
+            onClick={() => setBGColor("pink")}
+          ></button>
+           <button
+            className="bg-black  p-4 rounded-full"
+            onClick={() => setBGColor("black")}
           ></button>
         </div>
         <a
